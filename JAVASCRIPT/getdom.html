@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id = "header">제목</h1>
+    <P id = "content"> 인녕하세요</P>
+    <input type="text" id="alias" value = "adam">
+    <script>
+        let h1 = document.getElementById("header") //찾아오거나 만드는것
+        
+        
+        
+        h1.style.color = "Red";             //프로그램 짜는것
+        h1.style.border ="2px solid Black";
+    
+        document.getElementById("content").innerHTML += "텍스트 변경";
+        alert(document.getElementById("alias").value);
+    </script>
+    
+</body>
+</html>

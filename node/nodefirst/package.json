@@ -1,0 +1,11 @@
+{
+  "name": "adamnode",
+  "version": "1.0.0",
+  "description": "nodefirst",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "이정엽",
+  "license": "ISC"
+}
