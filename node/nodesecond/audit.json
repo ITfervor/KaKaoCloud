@@ -1,0 +1,21 @@
+{
+    "keepSettings": {
+        "type": 2,
+        "amount": 10
+    },
+    "auditFilename": "audit.json",
+    "hashType": "md5",
+    "extension": "",
+    "files": [
+        {
+            "date": 1668668756013,
+            "name": "C:\\Users\\user\\Documents\\XHTML\\node\\nodesecond\\log\\access-20221117.log",
+            "hash": "a45d863d8530114a645371bf66ad862d"
+        },
+        {
+            "date": 1668732309430,
+            "name": "C:\\Users\\user\\Documents\\XHTML\\node\\nodesecond\\log\\access-20221118.log",
+            "hash": "780103dc30697e482a0c624b2cdaf6f0"
+        }
+    ]
+}
