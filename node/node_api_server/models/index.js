@@ -1,13 +1,9 @@
-const Sequelize = require("sequelize");
-const env = process.env.NODE_ENV || "development";
-const config = require("../config/config.json")[env];
+const Sequelize = require('sequelize');
+const env = process.env.NODE_ENV || 'development';
+const config = require('../config/config.json')[env];
 
 const sequelize = new Sequelize(
-  config.database,
-  config.username,
-  config.password,
-  config
-);
+  config.database, config.username, config.password, config);
 
 const db = {};
 
@@ -15,9 +11,9 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 //모델들 가져오기
-const User = require("./user");
-const Post = require("./post");
-const Hashtag = require("./hashtag");
+const User = require('./user');
+const Post = require('./post');
+const Hashtag = require('./hashtag');
 
 db.User = User;
 db.Post = Post;
