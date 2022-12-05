@@ -1,0 +1,8 @@
+::1 - - [02/Dec/2022:00:41:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [02/Dec/2022:00:41:12 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [02/Dec/2022:00:41:15 +0000] "GET /join HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [02/Dec/2022:00:41:53 +0000] "POST /auth/join HTTP/1.1" 302 46 "http://localhost:8000/join" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [02/Dec/2022:00:41:53 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/join" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [02/Dec/2022:02:31:46 +0000] "POST /v1/token HTTP/1.1" 404 - "-" "axios/1.2.0"
+::1 - - [02/Dec/2022:02:37:07 +0000] "POST /v1/token HTTP/1.1" 404 - "-" "axios/1.2.0"
+::1 - - [02/Dec/2022:03:01:55 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"

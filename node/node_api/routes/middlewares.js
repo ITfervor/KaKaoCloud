@@ -38,3 +38,28 @@ exports.verifyToken = (req, res, next) => {
     });
   }
 };
+
+//사용량 제한을위한 미들웨어
+
+const RateLimit = require("express-rate-limit");
+
+exports.appLimiter = RateLimit({
+  windowMS: 60 * 1000, //1분
+  max: 10,
+  delayMS: 0,
+  handler(req, res) {
+    res.status(this.statusCode).json({
+      code: this.statusCode,
+      message: "1분 단위로 요청을 해야한다.",
+    });
+  },
+});
+
+//구버전 API요청시 동작할 미들웨어
+
+exports.deprecated = (req, res) => {
+  res.status(410).json({
+    code: 410,
+    message: "새로운 버전이 나왔습니다. 새버전 사용해라",
+  });
+};
