@@ -142,6 +142,7 @@ import React from "react";
 import UserList from "./UserList";
 import CreateUser from "./CreateUser";
 import { useState, useRef, useMemo } from "react";
+import Average from "./Average1";
 
 //active 가 true인 데이터 개수
 const countActiveUser = (users) => {
@@ -211,6 +212,7 @@ const App = () => {
 
   return (
     <div>
+      <Average />
       <UserList users={users} />
       <CreateUser
         username={username}
