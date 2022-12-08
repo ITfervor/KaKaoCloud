@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "open-color": "^1.9.1",
+    "react-icons": "^4.7.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0"
+  }
+}

@@ -30,10 +30,10 @@ function App() {
             .then((response) => response.json())
             .then((data) => console.log(data))
             .catch((error) => console.log(error.message)); */
-          axios
+          /* axios
             .get("https://jsonplaceholder.typicode.com/users")
             .then((response) => console.log(response.data))
-            .catch((error) => console.log(error));
+            .catch((error) => console.log(error)); */
         }}
       >
         다운로드
