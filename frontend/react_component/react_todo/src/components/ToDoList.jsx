@@ -26,12 +26,12 @@ const ToDoList = ({ todos, onRemove, onToggle }) => {
   return (
     <List
       className="ToDoList"
-      width={512}
-      height={513}
-      rowCount={todos.length}
-      rowHeight={57}
-      rowRenderer={rowRenderer}
-      list={todos}
+      width={512} //항목의 너비
+      height={513} // 전체높이
+      rowCount={todos.length} //전체 데이터 개수
+      rowHeight={57} //항목의 높이
+      rowRenderer={rowRenderer} //행을만들어주는 함수
+      list={todos} //데이터
       style={{ outline: "none" }}
     ></List>
   );

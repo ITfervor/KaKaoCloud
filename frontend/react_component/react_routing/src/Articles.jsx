@@ -16,3 +16,5 @@ const Articles = () => {
     </ul>
   );
 };
+
+export default Articles;
